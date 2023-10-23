@@ -1,5 +1,7 @@
 using Test
 
-@test 1==1
+@testset "fake tests" begin
+  @test 1==1
 
-@test 1==2
+  @test 1==2
+end
