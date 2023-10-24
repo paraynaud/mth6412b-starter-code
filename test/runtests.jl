@@ -6,4 +6,5 @@ using Test
   @test true * false != true * true
 
   @test Bool(true + false) == true
+  
 end
